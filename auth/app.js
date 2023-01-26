@@ -86,7 +86,7 @@ app.post("/login", async (req, res) => {
             token,
             user
         })
-
+// function should be here
 
         // create token and send
         res.sendStatus(400).send("email or password is incorrect")
