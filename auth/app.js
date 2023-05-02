@@ -29,6 +29,7 @@ app.post("/registrer", async (req, res) => {
             res.status(401).send("User already found in database")
         }
 
+
         // encrypting  the password
         const myEncPassword = await bcrypt.hash(password, 10)
 
