@@ -45,7 +45,9 @@ app.post("/registrer", async (req, res) => {
         const token = jwt.sign({
             id: user._id, email: email
         }, "77777", { expiresIn: '2h' })
+//const token = jwt.sign({
 
+//}) 
 
         user.token = token
         // dont want to send the password
