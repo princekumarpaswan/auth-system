@@ -6,6 +6,7 @@ const bcrypt = require("bcryptjs")
 // import model - User
 const User = require("./model/schema")
 
+
 const app = express()
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
