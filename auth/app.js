@@ -7,7 +7,7 @@ const bcrypt = require("bcryptjs")
 // import model - User
 const User = require("./model/schema")
 
-
+//for the object redibility 
 const app = express()
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
